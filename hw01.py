@@ -3,7 +3,7 @@
 
 for i in range(10):
     for j in range(1,i):
-        print("{}x{}={:2}".format((10-i),(10-j),(10-i)*(10-j)),"",end="")
+        print("{}x{}={:2}".format(i,j,i*j),"",end="")
     print()
     
 #左倒置九九乘法表#
